@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header{
+    width: 1400px;
+    height: 700px;
+  border: 1px solid green;  
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+    }
+#foto {
+    width: 260px;
+    height: 311px;
+    
+}
+.container{
+    margin: 50px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container img{
+    width: 150px;
+}

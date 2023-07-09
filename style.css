@@ -1,31 +1,68 @@
 *{
     box-sizing: border-box;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .header{
-    width: 1400px;
-    height: 700px;
-  border: 1px solid green;  
-  background-color: green;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-    }
-#foto {
-    width: 260px;
-    height: 311px;
-    
+body{
+    background-color:  #EBEBEB;
+    font-family: sans-serif;
 }
-.container{
-    margin: 50px 0 20px;
-    display: flex;
-    justify-content: space-between;
+body, p, h2, h1, ul{
+    margin: 0px;
+    padding: 0px;
 }
-.container img{
-    width: 150px;
+header{
+    background-color: black;
+}
+nav{
+    width: 1000px;
+    margin: 0 auto;
+ padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 19px;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color:  #585858;
+}
+.wrapper{
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+aside{
+    width: 300px;
+    background-color: #4d4d4d;
+}
+aside p, aside li, aside h1, aside h2 {
+    color: white;
+}
+aside li{
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+     list-style-type: none;
+}
+aside h1{
+    font-size: 19px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+aside h2{
+    font-size: 19px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+main{
+    width: 700px;
+    justify-content: center;
 }
